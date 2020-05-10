@@ -6,8 +6,8 @@ class Artist
    
   end 
   
-  def songs
-    @@songs
+  def song
+    @@songs << Song.new
   end
   
   def name
