@@ -3,11 +3,11 @@ class Artist
    @@songs = []
   def initialize(name)
     @name = name
-   
+    @@songs << song
   end 
   
   def song
-    @@songs << Song.new
+   song = Song.new
   end
   
   def songs
