@@ -7,7 +7,7 @@ class Artist
   end 
   
   def songs
-    @songs << Song.new
+    @songs 
   end
   
   def name
