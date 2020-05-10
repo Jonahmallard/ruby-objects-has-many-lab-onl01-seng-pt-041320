@@ -6,15 +6,5 @@ class Artist
    
   end 
   
-  def song
-   self.song.name
-  end
-  
-  def songs
-    @@songs << song
-  end
-  
-  def name
-    @name
-  end 
+
 end 
