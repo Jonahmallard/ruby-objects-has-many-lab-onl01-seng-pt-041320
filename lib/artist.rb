@@ -10,6 +10,10 @@ class Artist
     @@songs << Song.new
   end
   
+  def songs
+    @@songs
+  end
+  
   def name
     @name
   end 
