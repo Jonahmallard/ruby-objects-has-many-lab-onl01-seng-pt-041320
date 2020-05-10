@@ -7,7 +7,7 @@ class Artist
   end 
   
   def song
-   
+   self.song.name
   end
   
   def songs
